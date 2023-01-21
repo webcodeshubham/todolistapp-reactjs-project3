@@ -6,6 +6,8 @@
 #2. Add Task Functionality.
 #3. Delete Task Functionality.
 #4. Completed Task Functionality.
+#5. Components help us to Abstract Logic in JSX Custom Element.
+#6. Functions, Variables (Objects, ArrayOfString) can be passed via props.
 
 
 🌿🍃🌳🔥🥀 Detailed Explaination of Important Points - Connect the Dots 🥀🔥🌳🍃🌿
@@ -52,6 +54,10 @@
 #4. Use Filter Method, In order to get the newToDoList. This method takes callback as a parameter, then run the condition, according to the condition, it will manage & return back the new array of elements. True or False.
 #5. Set the newToDoList to the Setter Function of toDoList.
 #6. Data is already holding like water in rest state, Whenever there is a change happens, it will take the data.
-#7. Creating Objects of an Array of  
+#7. Creating Objects of an Array as task.
+
+✅#18. Create a separate Component of Task, because the UI is repeated.
+
+
 
 

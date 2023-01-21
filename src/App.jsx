@@ -114,6 +114,7 @@ function App() {
             //   {/* <button onClick={() => completeTask(task.completed)}>Cpmplete</button> */}
             //   <button className="task__complete">Complete</button>
             // </div>
+            // Passing this task Object via Props & functions.
             <Task
               id={task.id}
               completed={task.completed}
