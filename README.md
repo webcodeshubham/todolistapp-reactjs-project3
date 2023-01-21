@@ -4,10 +4,9 @@ This Project explains the key concepts of React JS Library which include React B
 
 [LIVE HOSTED WEBSITE REPLIT](https://todolistapp-reactjs-project3.shubhamshriva15.repl.co/)
 
-# Screenshot:
+# Screenshot
 
 ![image](https://user-images.githubusercontent.com/115470266/213871727-89c50277-e492-4486-8959-894ecf38a11e.png)
-
 
 # Technologies Used
 
