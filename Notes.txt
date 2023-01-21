@@ -36,3 +36,22 @@
 
 ✅#13. Each child in a list should have a unique "key" prop. We must have a unique key as ID to delete 2 or more similar tasks. Use ID as an identifier.
 
+✅#14. A Good Data Structure to hold the data is an Array. Here, all the tasks will be stored inside an array. State can't be mutated directly.
+
+✅#15. Create the two different states in the component - task and listoftasks. Logic will be written above the JSX return block.
+
+✅#16. Flow of React CRUD Application =>
+🔥#1. OnChanging => NewTask of Input => Store the text inside newTask State Variable.
+🔥#2. OnClicking => newTask State Variable will be added to toDoList State Variable => Data Adding from One State Variable to Another => Array Destructing with Spread Operator => Previous tasks stored inside toDoList and newly added newTask. 
+🔥#3. To render elements/list/items of an array, use the map method and get the value using dot notation.
+
+✅#17. Delete Functionality =>
+#1. Create the Delete Button and Link the Delete Function with OnClick Event Button.
+#2. In order to delete a task, we must have a reference to delete a specific task, here task or id itself.
+#3. We must pass an argument to delete function to delete a specific task. Here taskName or id itself.
+#4. Use Filter Method, In order to get the newToDoList. This method takes callback as a parameter, then run the condition, according to the condition, it will manage & return back the new array of elements. True or False.
+#5. Set the newToDoList to the Setter Function of toDoList.
+#6. Data is already holding like water in rest state, Whenever there is a change happens, it will take the data.
+#7. Creating Objects of an Array of  
+
+

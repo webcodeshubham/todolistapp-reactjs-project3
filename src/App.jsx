@@ -13,14 +13,15 @@ function App() {
 
   const addTask = () => {
     const task = {
+      // toDoList = newTask, newTask, newTask, newTask, newTask.
+      // toDoList[0] = First Newtask
+      // Index vs Length
+      // toDoList.id = newTask.id = Index Number
+      // toDoList[toDoList.length - 1] => Go for Previous Element of an Array.
       id: toDoList.length === 0 ? 1 : toDoList[toDoList.length - 1].id + 1,
       taskName: newTask,
       completed: false,
     };
-    // toDoList = newTask, newTask, newTask, newTask, newTask.
-    // toDoList[0] = First Newtask
-    // Index vs Length
-    // toDoList.id = newTask.id = Index Number
 
     // const array = []
     // const name = "Shubham"
