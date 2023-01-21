@@ -1,0 +1,48 @@
+🥀 ToDoList App - React JS 🥀
+
+🌿🥀🌳 Points to Remember 🌳🥀🌿
+
+#1. React CRUD Application.
+
+
+🌿🍃🌳🔥🥀 Detailed Explaination of Important Points - Connect the Dots 🥀🔥🌳🍃🌿
+
+✅#1. Prerequisites - Install and Configure Node JS, NPM, NPX & along with Versions.
+
+✅#2. Create a React App - npx create-react-app command & run the app - default development server environment - localhost:3000.
+
+✅#3. React Scripts/Commands - npm start, npm run build (minified version - production deployment build), npm test (test cases) & npm run eject.
+
+✅#4. Explore the App - Files & Folders Structure.
+
+✅#5. Clean up the App - Files & Folders Structure.
+
+✅#6. Create a Directory of Components & Build them.
+
+✅#7. Create a Directory of Assets which includes Images/CSS/Other Static Files and Folders.
+
+✅#8. Create the multiple Components as per the App Layout ==> Add Task < ToDoList.
+
+✅#9. Render the "Hello World" in Default App Component.
+
+✅#10. Install & Configure the Material UI Library on place of Semantic UI Library.
+
+✅#11. React Component - Individual piece of reusable code which has it's own functionality, inputs and outputs.
+
+✅#12. HTML vs. JSX:- You can't write HTML in JS File, it's JSX Syntax (HTML + JS) which means embedded { JS } in HTML in the JS Component.
+
+✅#13. React App Component - Create & Structure the multiple Components as per the App Layout - Header < AddContact < ContactList < ContactCard.
+
+✅#14. Design & Build your Header Functional Component with or without Material UI.
+
+✅#15. Design & Build your AddContact Form as Class Component with or without Material UI.
+🔥#1. ==> Declare the class component state.
+🔥#2. ==> Add the Event Handlers with Callback Functions as Onchange (Input) & OnSubmit (Form).
+🔥#3. ==> Set the State of the State Object Keys using this.setState() method.
+
+✅#16. Design & Build your ContactList Functional Component with or without Material UI.
+
+✅#17. Style the App Component with or without Material UI.
+
+✅#18. 
+
