@@ -8,6 +8,7 @@
 #4. Completed Task Functionality.
 #5. Components help us to Abstract Logic in JSX Custom Element.
 #6. Functions, Variables (Objects, ArrayOfString) can be passed via props.
+#7. Do make the Project Flow Structure.
 
 
 🌿🍃🌳🔥🥀 Detailed Explaination of Important Points - Connect the Dots 🥀🔥🌳🍃🌿
@@ -48,15 +49,19 @@
 🔥#3. To render elements/list/items of an array, use the map method and get the value using dot notation.
 
 ✅#17. Delete Functionality =>
-#1. Create the Delete Button and Link the Delete Function with OnClick Event Button.
-#2. In order to delete a task, we must have a reference to delete a specific task, here task or id itself.
-#3. We must pass an argument to delete function to delete a specific task. Here taskName or id itself.
-#4. Use Filter Method, In order to get the newToDoList. This method takes callback as a parameter, then run the condition, according to the condition, it will manage & return back the new array of elements. True or False.
-#5. Set the newToDoList to the Setter Function of toDoList.
-#6. Data is already holding like water in rest state, Whenever there is a change happens, it will take the data.
-#7. Creating Objects of an Array as task.
+🔥#1. Create the Delete Button and Link the Delete Function with OnClick Event Button.
+🔥#2. In order to delete a task, we must have a reference to delete a specific task, here task or id itself.
+🔥#3. We must pass an argument to delete function to delete a specific task. Here taskName or id itself.
+🔥#4. Use Filter Method, In order to get the newToDoList. This method takes callback as a parameter, then run the condition, according to the condition, it will manage & return back the new array of elements. True or False.
+🔥#5. Set the newToDoList to the Setter Function of toDoList.
+🔥#6. Data is already holding like water in rest state, Whenever there is a change happens, it will take the data.
+🔥#7. Creating Objects of an Array as task, status and more info about the task as name, id, completed status.
 
 ✅#18. Create a separate Component of Task, because the UI is repeated.
+
+✅#19. Update Functionality => 
+🔥#1. Change the Status of Completed using Map Method Functionality.
+🔥#2. 
 
 
 

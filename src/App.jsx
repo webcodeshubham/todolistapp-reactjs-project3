@@ -67,10 +67,13 @@ function App() {
   const taskComplete = (id) => {
     setToDoList(
       toDoList.map((task) => {
+        // We are using map in order to get the specific task.
         if (task.id === id) {
           // Everything in the task object must remain the same.
+          // task = { id, taskName, completed } & update completed as True.
           return { ...task, completed: true };
         } else {
+          // return the same task object
           return task;
         }
       })
