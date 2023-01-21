@@ -1,38 +1,79 @@
-.App {
+/* Default Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* App Stylings */
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__addTask {
+  padding: 4vw 0 6vw;
+  background: linear-gradient(rgba(255, 0, 174, 0.459), rgba(0, 66, 128, 0.45));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__addTask h1 {
+  margin-bottom: 6vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.app__addTask input {
+  padding: 0.2vw 0.6vw;
+}
+
+.app__addTask button {
+  padding: 0.18vw 0.6vw;
+  border-radius: 2px;
+  background-color: black;
   color: white;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+::placeholder {
+  font-size: 0.8vw;
+  font-style: italic;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__list {
+  padding: 2vw 0;
+}
+
+.task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2vw auto;
+  width: 30vw;
+}
+
+.task h1 {
+  font-size: 3vw;
+  margin-right: 1vw;
+  background-color: #1900ff58;
+  color: black;
+  border-radius: 2px;
+  padding: 0 1vw;
+}
+
+button.task__delete {
+  margin-right: 0.5vw;
+  padding: 0.18vw 0.6vw;
+  border-radius: 2px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button.task__complete {
+  margin-right: 0.5vw;
+  padding: 0.18vw 0.6vw;
+  border-radius: 2px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
 }

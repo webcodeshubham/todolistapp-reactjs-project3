@@ -3,6 +3,9 @@
 🌿🥀🌳 Points to Remember 🌳🥀🌿
 
 #1. React CRUD Application.
+#2. Add Task Functionality.
+#3. Delete Task Functionality.
+#4. Completed Task Functionality.
 
 
 🌿🍃🌳🔥🥀 Detailed Explaination of Important Points - Connect the Dots 🥀🔥🌳🍃🌿
@@ -25,24 +28,11 @@
 
 ✅#9. Render the "Hello World" in Default App Component.
 
-✅#10. Install & Configure the Material UI Library on place of Semantic UI Library.
+✅#10. React Component - Individual piece of reusable code which has it's own functionality, inputs and outputs.
 
-✅#11. React Component - Individual piece of reusable code which has it's own functionality, inputs and outputs.
+✅#11. HTML vs. JSX:- You can't write HTML in JS File, it's JSX Syntax (HTML + JS) which means embedded { JS } in HTML in the JS Component.
 
-✅#12. HTML vs. JSX:- You can't write HTML in JS File, it's JSX Syntax (HTML + JS) which means embedded { JS } in HTML in the JS Component.
+✅#12. How to know which element in ArrayOfStrings, we wanna delete. We will pass an argument in deleteTask Function. Use the Array Filter Method with specified condition on Deleting an Element of an Array.
 
-✅#13. React App Component - Create & Structure the multiple Components as per the App Layout - Header < AddContact < ContactList < ContactCard.
-
-✅#14. Design & Build your Header Functional Component with or without Material UI.
-
-✅#15. Design & Build your AddContact Form as Class Component with or without Material UI.
-🔥#1. ==> Declare the class component state.
-🔥#2. ==> Add the Event Handlers with Callback Functions as Onchange (Input) & OnSubmit (Form).
-🔥#3. ==> Set the State of the State Object Keys using this.setState() method.
-
-✅#16. Design & Build your ContactList Functional Component with or without Material UI.
-
-✅#17. Style the App Component with or without Material UI.
-
-✅#18. 
+✅#13. Each child in a list should have a unique "key" prop. We must have a unique key as ID to delete 2 or more similar tasks. Use ID as an identifier.
 
